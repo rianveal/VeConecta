@@ -117,7 +117,7 @@ $(document).ready(function(){
   }
 
 
-  $('#btnInformacion').on('click', function(){
+  $('#btnInformacion, #btnInformacionSlide').on('click', function(){
     if( $('.overlay-mensaje').is(':hidden') ){
       $('.overlay-mensaje').fadeIn();
     }
